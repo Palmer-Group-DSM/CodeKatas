@@ -2,10 +2,10 @@
 ## Objective
 Create a function that returns ```true``` if the input year is a leap year, ```false``` otherwise.
 
-
-## Background
-A leap year is defined as one that is divisible by 4, but is not otherwise divisible by 100 unless it is also divisible by 400
-
+## User Stories
+    Given I am calendarian,
+    When I input $year into the program,
+    The program should return $result
 
 ## Sample Test Cases
 | Input | Output      |
