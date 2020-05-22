@@ -6,6 +6,7 @@
     - [Feature: Winning a Point Increases Score Correctly](#feature-winning-a-point-increases-score-correctly)
     - [Feature: Deuce and Advantage are Scored Correctly](#feature-deuce-and-advantage-are-scored-correctly)
     - [Feature: Winning Points are Scored Correctly](#feature-winning-points-are-scored-correctly)
+  - [Additional Requirement](#additional-requirement)
 ## Objective
 Write a program that keeps track of the score in a tennis game. The umpire will have a controller with 2 buttons: **Player One Scores** and **Player 2 Scores** 
 
@@ -80,3 +81,6 @@ The rules for scoring tennis are summarized below
 | ----------------- | ------- | --------------- |
 | Thirty-Forty      | player2 | Win for player2 |
 | Advantage player1 | player1 | Win for player1 |
+
+## Additional Requirement
+The scorekeepers have requested a change. They would like to be able to rename 'player1' and 'player2'. Juan Martin del Potro plays Novak Djokovic tomorrow at noon. Good luck!
