@@ -1,5 +1,11 @@
 # Tennis Scoring Kata
-
+- [Tennis Scoring Kata](#tennis-scoring-kata)
+  - [Objective](#objective)
+  - [Background](#background)
+  - [User Stories](#user-stories)
+    - [Feature: Winning a Point Increases Score Correctly](#feature-winning-a-point-increases-score-correctly)
+    - [Feature: Deuce and Advantage are Scored Correctly](#feature-deuce-and-advantage-are-scored-correctly)
+    - [Feature: Winning Points are Scored Correctly](#feature-winning-points-are-scored-correctly)
 ## Objective
 Write a program that keeps track of the score in a tennis game. The umpire will have a controller with 2 buttons: **Player One Scores** and **Player 2 Scores** 
 
@@ -23,6 +29,7 @@ The rules for scoring tennis are summarized below
 4.  If at least three points have been scored by each side and a player has one more point than his opponent,the score of the game is **“Advantage player1”** or **“Advantage player2”**.
 ## User Stories
 ### Feature: Winning a Point Increases Score Correctly
+
     As a library user  
     I want the score to increase when a player wins a point  
     So that I can display the current score correctly
@@ -30,13 +37,17 @@ The rules for scoring tennis are summarized below
     Given the score is $score
     When $player wins a point
     Then the score is $updatedScore
-#### Test Cases
+
+**Test Cases**
+
 | score           | player  | updatedScore   |
 | --------------- | ------- | -------------- |
 | Love-Love       | player1 | Fifteen-Love   |
 | Fifteen-Fifteen | player2 | Fifteen-Thirty |
 | Thirty-Thirty   | player1 | Forty-Thirty   |
+
 ---
+
 ### Feature: Deuce and Advantage are Scored Correctly
     As a library user
     I want deuce and advantage to be scored correctly
@@ -45,14 +56,17 @@ The rules for scoring tennis are summarized below
     Given the score is $score
     When $player wins a point
     Then the score is $updatedScore
-#### Test Cases
+**Test Cases**
 | score             | player  | updatedScore      |
 | ----------------- | ------- | ----------------- |
 | Thirty-Forty      | player1 | Deuce             |
 | Forty-Forty       | player2 | Advantage player2 |
 | Advantage player2 | player1 | Deuce             |
+
 ---
+
 ### Feature: Winning Points are Scored Correctly
+
     As a library user
     I want the winning point to be scored correctly
     So that I can display the winner
@@ -60,7 +74,8 @@ The rules for scoring tennis are summarized below
     Given the score is $score
     When $player wins a point
     Then the score is $updatedScore
-#### Test Cases
+**Test Cases**
+
 | score             | player  | updatedScore    |
 | ----------------- | ------- | --------------- |
 | Thirty-Forty      | player2 | Win for player2 |
