@@ -5,3 +5,4 @@
 - [Bowling Game](Katas/BowlingGameKata.md)
 - [FizzBuzz](Katas/FizzBuzzKata.md)
 - [Potter](Katas/PotterKata.md)
+- [Tennis Scoring](Katas/TennisScoring.md)
