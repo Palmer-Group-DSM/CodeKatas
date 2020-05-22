@@ -5,7 +5,7 @@ In the magical world of code katas, there is a captivating series of 5 books abo
 
 **Any one book within the series has an individual price of $8.00 each.**
 
-If you buy more than one book at a time to create a set, you will get a percentage discount on the .
+If you buy more than one book at a time to create a set, you will get a percentage discount on the book.
 
 | Sale Description | Discount Value |
 | ---------------- | ----- |
