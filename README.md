@@ -1,3 +1,4 @@
 # CodeKatas
 
-1. [Roman Numerals](Katas/RomanNumeralConverterKata.md)
+- [Roman Numerals](Katas/RomanNumeralConverterKata.md)
+- [Leap Years](Katas/LeapYearsKata.md)
