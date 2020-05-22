@@ -4,4 +4,5 @@
 - [Leap Years](Katas/LeapYearsKata.md)
 - [Bowling Game](Katas/BowlingGameKata.md)
 - [FizzBuzz](Katas/FizzBuzzKata.md)
+- [Tennis Scoring](Katas/TennisScoring.md)
 
