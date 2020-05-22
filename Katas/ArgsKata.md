@@ -21,7 +21,7 @@ For example, consider a program called with these arguments:
 
 The schema is indicated as having 3 flags (v, p, d). The 'v' flag does not have any values associated with it - it's a boolean value,  ```true``` if present, ```false``` if not. The 'p' flag (port in this case) should be supplied with an integer value. The 'd' flag (directory in this case) should be supplied with a string value. 
 
-Once the schema has been specified, your args parser should accept the argument list. It should validate that the args are valid. Finally, your parser should expose a method that accepts a flag as a parameter and returns the corresponding value (ensuring it's the correct type).
+Once the schema has been specified, your args parser should accept the argument list. It should validate the args. Finally, your parser should expose a method that accepts a flag as a parameter and returns the corresponding value (ensuring it's the correct type).
 
 ### Default Values
 If a flag mentioned in the schema is not present in args passed to the command line, your program should return a default according to the specified type (0 for integer, "" for string, ```false``` for boolean).
@@ -34,13 +34,13 @@ Your program should make it staightforward and obvious how to add new types of v
 
 ### Notes
 
-1. The schema definition is left intentionally vague in this kata description. Designing a concise schema syntax is an important part of this exercise.
-2. The order of the argument does not need to match the order provided in the schema.
+1. The schema definition is left intentionally vague in this kata description. Designing a concise schema syntax is an important part of the exercise.
+2. The order of the arguments does not need to match the order provided in the schema.
 
 ## Additional Requirement
 Modify your program to support parsing lists. 
 
-For example, if the schema specifies a list with a -l flag, it could be called as follows:
+For example, if the schema specifies a integer list with a -l flag, it could be called as follows:
 
     -l 1,-2,3
 
