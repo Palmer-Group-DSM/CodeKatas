@@ -16,7 +16,6 @@
     XIV     ->  14
     MDCCXCV ->  1795
 **Note: There is no need to handle numbers larger than about 3000.**
-s
 ## Background
 Roman numerals are an ancient numeral writing system. They are still in common use today (e.g., Games of the XXXII Olympiad or *The Godfather Part III*). 
 ## Rules
