@@ -66,7 +66,7 @@ Create a string calculator capable of handling increasingly complex input data.
 | ---------- | --------------------------------- |
 | "1,30\n10" | 41                                |
 | "1\n3\n5"  | 9                                 |
-| "1,\n"     | invalid input (no need to handle) |
+| "1,\n"     | Invalid input (no need to handle) |
 
 
 ### Feature: Allow configurable delimiters 
