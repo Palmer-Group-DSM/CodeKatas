@@ -6,6 +6,7 @@
     - [Feature: Add a list of numbers of an unknown length](#feature-add-a-list-of-numbers-of-an-unknown-length)
     - [Feature: Accept newline char as delimiter](#feature-accept-newline-char-as-delimiter)
     - [Feature: Allow configurable delimiters](#feature-allow-configurable-delimiters)
+    - [Feature: Support error handling for negative numbers](#feature-support-error-handling-for-negative-numbers)
 ## Objective
 Create a string calculator capable of handling increasingly complex input data
 
@@ -88,3 +89,22 @@ Create a string calculator capable of handling increasingly complex input data
 | "//#\n4#2#3" | 9      |
 
 **Note:** delimiter specification is optional, thus your previous tests should all pass without modification after implementing this feature
+
+### Feature: Support error handling for negative numbers
+
+ > When the calculator receives arguments < 0, it should return an error in the form of "Error - negative numbers not allowed: [negative number(s)]"
+
+    As a library user  
+    I want to catch errors in my input data
+    So that I can ensure the integrity of my results
+    -------------------------------------------------------
+    Given the calculator is running
+    When I enter $args
+    Then the calculator returns $result
+
+**Test Cases**
+
+| args            | result                                         |
+| --------------- | ---------------------------------------------- |
+| "7,8,-9"        | "Error - negative numbers not allowed: -9      |
+| "//@\n-10@2@-3" | "Error - negative numbers not allowed: -10, -2 |
