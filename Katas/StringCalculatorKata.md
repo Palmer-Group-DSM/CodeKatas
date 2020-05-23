@@ -8,7 +8,7 @@
     - [Feature: Allow configurable delimiters](#feature-allow-configurable-delimiters)
     - [Feature: Support error handling for negative numbers](#feature-support-error-handling-for-negative-numbers)
 ## Objective
-Create a string calculator capable of handling increasingly complex input data
+Create a string calculator capable of handling increasingly complex input data.
 
 ## Requirements
 ### Feature: Add zero, one, or two numbers
@@ -54,7 +54,7 @@ Create a string calculator capable of handling increasingly complex input data
 
     As a library user  
     I want to call an Add method using newline characters to delimit my arguments
-    So that I can use the program for a wider range of input data formats
+    So that I can use the library for a wider range of input data formats
     -------------------------------------------------------
     Given the calculator is running
     When I enter $args
@@ -88,7 +88,7 @@ Create a string calculator capable of handling increasingly complex input data
 | "//;\n1;2"   | 3      |
 | "//#\n4#2#3" | 9      |
 
-**Note:** delimiter specification is optional, thus your previous tests should all pass without modification after implementing this feature
+**Note:** delimiter specification is optional, thus your previous tests should all pass (without modification) after implementing this feature.
 
 ### Feature: Support error handling for negative numbers
 
