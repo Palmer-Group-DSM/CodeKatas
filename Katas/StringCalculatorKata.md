@@ -4,6 +4,8 @@
   - [Requirements](#requirements)
     - [Feature: Add zero, one, or two numbers](#feature-add-zero-one-or-two-numbers)
     - [Feature: Add a list of numbers of an unknown length](#feature-add-a-list-of-numbers-of-an-unknown-length)
+    - [Feature: Accept newline char as delimiter](#feature-accept-newline-char-as-delimiter)
+    - [Feature: Allow configurable delimiters](#feature-allow-configurable-delimiters)
 ## Objective
 Create a string calculator capable of handling increasingly complex input data
 
@@ -26,7 +28,7 @@ Create a string calculator capable of handling increasingly complex input data
 | "5"   | 5      |
 | "1,2" | 3      |
 
-**Note: Don't forget to refactor between tests!**
+**Note:** Don't forget to refactor between tests!
 
 ---
 
@@ -44,5 +46,45 @@ Create a string calculator capable of handling increasingly complex input data
 
 | args        | result |
 | ----------- | ------ |
-| "1,2,10"    | 13     |
+| "1,2,4"     | 7      |
 | "1,2,3,4,5" | 15     |
+
+### Feature: Accept newline char as delimiter 
+
+    As a library user  
+    I want to call an Add method using newline characters to delimit my arguments
+    So that I can use the program for a wider range of input data formats
+    -------------------------------------------------------
+    Given the calculator is running
+    When I enter $args
+    Then the calculator returns $result
+
+**Test Cases**
+
+| args       | result                            |
+| ---------- | --------------------------------- |
+| "1,30\n10" | 41                                |
+| "1\n3\n5"  | 9                                 |
+| "1,\n"     | invalid input (no need to handle) |
+
+
+### Feature: Allow configurable delimiters 
+
+ > To change a delimiter, the beginning of the string will contain a separate line that looks like this: ```“//[delimiter]\n[numbers…]”```
+
+    As a library user  
+    I want to specify the delimiter
+    So that I can use the program for an even wider range of input data formats
+    -------------------------------------------------------
+    Given the calculator is running
+    When I enter $args
+    Then the calculator returns $result
+
+**Test Cases**
+
+| args         | result |
+| ------------ | ------ |
+| "//;\n1;2"   | 3      |
+| "//#\n4#2#3" | 9      |
+
+**Note:** delimiter specification is optional, thus your previous tests should all pass without modification after implementing this feature
