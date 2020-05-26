@@ -8,6 +8,8 @@
 - [Monty Hall](Katas/MontyHallKata.md)
 - [Potter](Katas/PotterKata.md)
 - [Tennis Scoring](Katas/TennisScoring.md)
+- [Minesweeper](Katas/Minesweeper.md)
 - [Medicine Clash](Katas/MedicineClash.md)
 - [String Calculator](Katas/StringCalculatorKata.md)
 - [Phone Numbers](Katas/PhoneNumbers.md)
+- [Poker Hands](/Katas/PokerHandsKata.md)
