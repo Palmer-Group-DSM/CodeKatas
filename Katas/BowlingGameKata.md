@@ -2,21 +2,19 @@
 - [Bowling Game Kata](#bowling-game-kata)
   - [Objective](#objective)
   - [User Stories](#user-stories)
-    - [Test Cases](#test-cases)
   - [Background](#background)
     - [Scoring an Open Frame](#scoring-an-open-frame)
     - [Scoring a Spare](#scoring-a-spare)
     - [Scoring a Strike](#scoring-a-strike)
     - [Final Frame Strike/Spare](#final-frame-strikespare)
   - [Input Data Format](#input-data-format)
-      - [Note: You may assume good input data. More specifically, your program does not need to check for valid rolls or correct number of rolls and frames. It also does not need to allow calculating scores of intermediate frames.](#note-you-may-assume-good-input-data-more-specifically-your-program-does-not-need-to-check-for-valid-rolls-or-correct-number-of-rolls-and-frames-it-also-does-not-need-to-allow-calculating-scores-of-intermediate-frames)
 ## Objective
 Create a program, which, given a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the total score for the game.
 ## User Stories
     Given I have completed a line of bowling
     When I enter $scorecard into the program
     Then the program returns $score
-### Test Cases
+**Test Cases**
 | Input                | Output |
 | -------------------- | ------ |
 | XXXXXXXXXXXX         | 300    |
@@ -48,4 +46,4 @@ If a player manages to roll a spare or a strike in the final frame, they are all
 ## Input Data Format
 The input data will come in the form of a scorecard, with 'X' representing a strike, '/' representing a spare, and '-' representing no pins bowled.  
 
-#### Note: You may assume good input data. More specifically, your program does not need to check for valid rolls or correct number of rolls and frames. It also does not need to allow calculating scores of intermediate frames.
+**Note: You may assume good input data. More specifically, your program does not need to check for valid rolls or correct number of rolls and frames. It also does not need to allow calculating scores of intermediate frames.**
