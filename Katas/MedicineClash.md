@@ -7,6 +7,10 @@ A Health Insurance company has recently discovered a medicine clash and needs to
 
 Once they have this information, they can notify the patient's healthcare provider. The provider can get the medication changed and keep the patient on the best course of treatment. Create a "Patient" class with a "Clash" method. The method takes a list of medications and how many days before today to consider (default to the previous 90 days), as arguments. A collection of days on which all of the medications were being taken during that period of time should be returned. 
 
+___
+Starter code is provided [here](http://github.com/emilybache/KataMedicineClash/blob/master/README.md) by the original author of Medicine Clash, Emily Bache.
+
+
 
 ## User Story
 
@@ -36,8 +40,4 @@ Prescription
 
 - Dispense date = medication start date.
 - Days supply = number of days patient continues to take medication after the dispense date.
-- If the patient has 2 overlapping prescriptions for the same medication assume they stop taking the earlier one. 
-
-___
-
-Starter code is provided [HERE](http://github.com/emilybache/KataMedicineClash/blob/master/README.md) by the original  author of Medicine Clash kata.
+- If the patient has 2 overlapping prescriptions for the same medication assume they stop taking the earlier one.
