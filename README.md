@@ -7,3 +7,4 @@
 - [Potter](Katas/PotterKata.md)
 - [Tennis Scoring](Katas/TennisScoring.md)
 - [String Calculator](Katas/StringCalculatorKata.md)
+- [Minesweeper](Katas/Minesweeper.md)
