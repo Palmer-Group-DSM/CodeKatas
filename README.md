@@ -10,3 +10,4 @@
 - [Tennis Scoring](Katas/TennisScoring.md)
 - [Medicine Clash](Katas/MedicineClash.md)
 - [String Calculator](Katas/StringCalculatorKata.md)
+- [Bank OCR](/Katas/BankOCRKata.md)
