@@ -40,7 +40,7 @@ Your program should make it staightforward and obvious how to add new types of v
 ## Additional Requirement
 Modify your program to support parsing lists. 
 
-For example, if the schema specifies a integer list with a -l flag, it could be called as follows:
+For example, if the schema specifies an integer list with a -l flag, it could be called as follows:
 
     -l 1,-2,3
 
