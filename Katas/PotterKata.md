@@ -23,14 +23,14 @@ If you buy more than one book at a time to create a set, you will get a percenta
 ```
 Given a shopping cart
 When I buy 3 different books
-Then my total is 24 dollars
+Then my total is 21.60 dollars
 
 ```
 
 ```
 Given a shopping cart
 When I buy 3 of the same book 
-Then my total is 21.60
+Then my total is 24 dollars
 
 ```
 
