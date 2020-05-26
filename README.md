@@ -11,3 +11,6 @@
 - [Minesweeper](Katas/Minesweeper.md)
 - [Medicine Clash](Katas/MedicineClash.md)
 - [String Calculator](Katas/StringCalculatorKata.md)
+- [Poker Hands](/Katas/PokerHandsKata.md)
+- [Medicine Clash](Katas/MedicineClash.md)
+- [String Calculator](Katas/StringCalculatorKata.md)
