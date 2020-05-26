@@ -30,7 +30,7 @@ The player selects the square on a board. Board size is usually determined by le
 
 > If a mine is revealed (detonated), then it is **game over**.
 
-**Example: **
+**Example:**
 
 ```
 A 5x5 board with two mines( mine = *): 
