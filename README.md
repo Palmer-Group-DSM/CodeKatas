@@ -13,3 +13,4 @@
 - [String Calculator](Katas/StringCalculatorKata.md)
 - [Phone Numbers](Katas/PhoneNumbers.md)
 - [Poker Hands](/Katas/PokerHandsKata.md)
+- [Reversi](/Katas/ReversiKata.md)
