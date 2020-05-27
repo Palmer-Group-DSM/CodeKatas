@@ -14,3 +14,4 @@
 - [Phone Numbers](Katas/PhoneNumbers.md)
 - [Poker Hands](/Katas/PokerHandsKata.md)
 - [Prime Factors](Katas/PrimeFactortsKata.md)
+- [Reversi](/Katas/ReversiKata.md)
