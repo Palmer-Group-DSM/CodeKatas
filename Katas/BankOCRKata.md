@@ -49,9 +49,9 @@ Extend your program to support outputting data. Use the following format (one ac
 
     457508000 
     664371495 ERR 
-    86110??36 IL
+    86110??36 ILL
 
-If you program detects illegible output, it should replace it with a ?. Your program should also validate the checksum of each account number. Additionally, if the checksum is invalid, you should append ```ERR``` to the account number,  and if the number has illegible characters, you should append ```ILL```
+If your program detects illegible output, it should replace it with a ?. Your program should also validate the checksum of each account number. Additionally, if the checksum is invalid, you should append ```ERR``` to the account number,  and if the number has illegible characters, you should append ```ILL```
 
 ### Feature: Attempts to Correct Invalid Data
 
