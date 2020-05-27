@@ -14,3 +14,6 @@
 - [Bank OCR](/Katas/BankOCRKata.md)
 - [Phone Numbers](Katas/PhoneNumbers.md)
 - [Poker Hands](/Katas/PokerHandsKata.md)
+- [Yatzy](Katas/Yatzy.md)
+- [Prime Factors](Katas/PrimeFactortsKata.md)
+- [Reversi](/Katas/ReversiKata.md)
